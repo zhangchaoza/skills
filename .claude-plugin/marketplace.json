@@ -1,0 +1,20 @@
+{
+  "name": "zhangchao-agent-skills",
+  "owner": {
+    "name": "zhangchao",
+    "email": "zackability@hotmail.com"
+  },
+  "metadata": {
+    "description": "Some skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "git-skills",
+      "description": "Collection of git skills",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/git-commit"]
+    }
+  ]
+}
